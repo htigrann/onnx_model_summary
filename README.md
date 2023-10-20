@@ -6,16 +6,27 @@ The `onnx_model_summary.py` has two input parameters
 `-model` or `--model_path` for specifing the input model's path
 `-out` or `--output_path` the output filename where to be stored the model's summary, if not specify this it'll write the summary in `model_summary.txt` file.
 
-For more information one can run `python3 onnx_model_summary.py -h` or `python3 onnx_model_summary.py --help` 
- 
+For more information one can run 
+``` 
+python3 onnx_model_summary.py -help
+```
 ## Installation
 
 1. **Clone the Repository**:
-  `git clone https://github.com/yourusername/your-repo.git`
-2. `cd your-repo`
-3. `pip3 install onnx`
+  ```
+git clone https://github.com/yourusername/your-repo.git
+```
+2. **Change to that directory**
+```
+cd your-repo
+```
+3. **Install the requried library**
+```
+pip3 install onnx
+```
 
 ## How to run
 Simply change `$PATH_TO_ONNX_MODEL` and `$OUTPUT_FILENAME` to your specific paths and run the following:
 
-`python3 onnx_model_summary.py -model $PATH_TO_ONNX_MODEL -out $OUTPUT_FILENAME`
+``` 
+python3 onnx_model_summary.py -model $PATH_TO_ONNX_MODEL -out $OUTPUT_FILENAME
