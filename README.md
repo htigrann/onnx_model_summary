@@ -14,11 +14,11 @@ python3 onnx_model_summary.py -help
 
 1. **Clone the Repository**:
   ```
-git clone https://github.com/yourusername/your-repo.git
+git clone git@github.com:htigrann/onnx_model_summary.git
 ```
 2. **Change to that directory**
 ```
-cd your-repo
+cd onnx_model_summary
 ```
 3. **Install the requried library**
 ```
